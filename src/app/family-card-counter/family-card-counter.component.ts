@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-family-card-counter',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./family-card-counter.component.css']
 })
 export class FamilyCardCounterComponent implements OnInit {
-
+  @Input() count: number;
   constructor() { }
 
   ngOnInit() {

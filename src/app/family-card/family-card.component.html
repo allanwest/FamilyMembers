@@ -1,12 +1,4 @@
 <div class="card">
-  <ul>
-    <li *ngFor="let adult of [1,2,3,4,5]">
-      <img src="assets/person-solid.svg" alt="">
-    </li>
-  </ul>
-  <ul>
-    <li>
-      <app-family-card-children></app-family-card-children>
-    </li>
-  </ul>
+  <app-family-card-adults [adults]="family.adults"></app-family-card-adults>
+  <app-family-card-children [children]="family.children"></app-family-card-children>
 </div>
