@@ -1,8 +1,10 @@
-<div>
+<div class="card">
   <ul>
-    <li>
-      <app-family-card-adults></app-family-card-adults>
+    <li *ngFor="let adult of [1,2,3,4,5]">
+      <img src="assets/person-solid.svg" alt="">
     </li>
+  </ul>
+  <ul>
     <li>
       <app-family-card-children></app-family-card-children>
     </li>
