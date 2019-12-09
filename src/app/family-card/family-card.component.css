@@ -6,6 +6,7 @@ ul {
   -webkit-flex-flow: wrap column; /* Safari 6.1+ */
   flex-flow: nowrap;
   max-height: 150px;   
+  padding: 20px;
 }
 li {
   max-width: 20px;
@@ -18,4 +19,5 @@ li img {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 400px;
+  padding: 20px;
 }
