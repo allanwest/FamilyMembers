@@ -6,10 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./family-card-children.component.css']
 })
 export class FamilyCardChildrenComponent implements OnInit {
-  @Input() children: number;
+  @Input() children: any;
   constructor() { }
 
   ngOnInit() {
+    this.children = [...Array(this.children).keys()]
   }
 
 }

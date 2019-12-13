@@ -1,3 +1,9 @@
-<div>
-    <app-family-card-counter [count]="adults"></app-family-card-counter>
-</div>
+<ul>
+    <li *ngFor="let adult of adults">
+        <img src="assets/person-solid.svg" alt="">
+    </li>
+    <li>
+        
+<app-family-card-counter [count]="adults.length"></app-family-card-counter>
+    </li>
+</ul>

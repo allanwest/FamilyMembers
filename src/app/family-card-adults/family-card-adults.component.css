@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    display: -ms-flexbox;           /* IE 10 */
+    display: -webkit-flex;          /* Safari 6.1+. iOS 7.1+ */
+    display: flex;
+    -webkit-flex-flow: wrap column; /* Safari 6.1+ */
+    flex-flow: nowrap;
+    max-height: 150px;   
+  }
+  li {
+    max-width: 20px;
+    display: flex;
+  }
+  li img {
+    width: 100%;
+  }
