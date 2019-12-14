@@ -5,19 +5,13 @@ ul {
   display: flex;
   -webkit-flex-flow: wrap column; /* Safari 6.1+ */
   flex-flow: nowrap;
-  max-height: 150px;   
-  padding: 20px;
+  max-height: 12.5em;
+  padding: 1.67em;
 }
 li {
-  max-width: 20px;
+  max-width: 1.67em;
   display: flex;
 }
 li img {
   width: 100%;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 400px;
-  padding: 20px;
 }

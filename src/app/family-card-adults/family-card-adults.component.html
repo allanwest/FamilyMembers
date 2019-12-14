@@ -1,9 +1,12 @@
-<ul>
+<div *ngIf="adults !== undefined" class="container">
+  <ul class="gradient">
     <li *ngFor="let adult of adults">
-        <img src="assets/person-solid.svg" alt="">
+      <img src="assets/person-solid.svg" alt="" />
     </li>
-    <li>
-        
-<app-family-card-counter [count]="adults.length"></app-family-card-counter>
-    </li>
-</ul>
+  </ul>
+  <div class="counter">
+    <app-family-card-counter
+      [count]="adults.length"
+    ></app-family-card-counter>
+  </div>
+</div>
