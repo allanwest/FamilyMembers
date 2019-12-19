@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Family } from './models/family';
+import { Family } from './family-members/models/family';
 
 @Component({
   selector: 'app-root',
